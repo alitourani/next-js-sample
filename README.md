@@ -1,2 +1,4 @@
-# next-js-sample
+
+# Next.js Sample
+
 A sample Next.js application
