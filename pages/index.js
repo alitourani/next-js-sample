@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Button } from "../components/Button";
 
 const index = () => {
   return (
@@ -19,8 +20,7 @@ const index = () => {
         <a>serverMessage</a>
       </Link>
       <div>This is a sample Next.js application</div>
-      <div>Below components will</div>
-      
+      <Button />
     </div>
   );
 };
