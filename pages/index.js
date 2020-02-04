@@ -20,6 +20,9 @@ const index = () => {
         <a>serverMessage</a>
       </Link>
       <div>This is a sample Next.js application</div>
+      <div>
+      <img src="/NextJS.jpg" alt="Sample" />
+      </div>
       <Button />
     </div>
   );
