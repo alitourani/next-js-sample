@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { Button } from "../components/Button";
 
+const style = {
+  padding: '1rem'
+}
+
 const index = () => {
   return (
-    <div>
-      <Link href="/">
+    <div style={style}>
+      <Link href="/" >
         <a>Home</a>
       </Link>
       <Link href="/404">
